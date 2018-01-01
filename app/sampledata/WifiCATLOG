@@ -1,0 +1,134 @@
+01-01 20:28:52.671 3750-3981/? E/SupplicantWifiScannerImpl: Timed out waiting for scan result from supplicant
+01-01 20:28:53.018 4137-4421/? D/WifiTile: handleClick() : false, dim =false
+01-01 20:28:53.021 4137-4421/? D/Tile.WifiTile: WifiTile to WifiStatusReceiver
+01-01 20:28:53.032 3750-3978/? D/WifiService: setWifiEnabled: true pid=4137, uid=10003
+01-01 20:28:53.033 3750-3978/? D/WifiService: setControlHistory, packageName:  com.android.systemui
+01-01 20:28:53.036 3750-4029/? E/WifiWatchdogStateMachine: Unhandled message { when=-1ms what=135243 arg1=1 target=com.android.internal.util.StateMachine$SmHandler } in state NotConnectedState
+01-01 20:28:53.037 3750-3978/? D/SecContentProvider: query(), uri = 18 selection = isWifiEnabled
+01-01 20:28:53.039 3750-3978/? D/SecContentProvider2: query(), uri = 20 selection = isWifiStateChangeAllowed
+01-01 20:28:53.041 3750-3978/? I/WifiService: Wi-Fi Sharing settings has not been accessed
+01-01 20:28:53.041 3750-3978/? D/WifiService: registerForSContext() : successful!
+01-01 20:28:53.072 3750-3978/? D/SContextManager:   .registerListener : listener = com.android.server.wifi.WifiServiceImpl$1@92eb1a8, service=Activity Tracker
+01-01 20:28:53.081 3750-3750/? D/WifiService: onSContextChanged(): status - 1, mPrevActivityStatus - -1, accuracy - 1
+01-01 20:28:53.081 3750-3750/? D/WifiStateMachine: setActivityStatus() : status - 1
+01-01 20:28:53.094 3750-3953/? D/WifiConfigManager: Loading config and enabling all networks
+01-01 20:28:53.102 3750-3750/? D/WifiService: onSContextChanged(): status - 1, mPrevActivityStatus - 1, accuracy - 1
+01-01 20:28:53.110 3750-3953/? D/WifiConfigStore: readNetwork skipInternetCheck
+01-01 20:28:53.120 3750-3953/? D/WifiConfigStore: readNetwork skipInternetCheck
+01-01 20:28:53.131 3750-3953/? D/WifiConfigStore: readNetwork skipInternetCheck
+01-01 20:28:53.144 3750-3953/? D/WifiConfigStore: readNetwork skipInternetCheck
+01-01 20:28:53.151 3750-3953/? I/WifiConfigStore: "Arsenal_WiFi" is a captive portal!
+01-01 20:28:53.151 3750-3953/? I/WifiConfigStore: not authenticated yet
+01-01 20:28:53.365 3750-3953/? I/WifiConfigStore: "GOODWIN Guest" is a captive portal!
+01-01 20:28:53.365 3750-3953/? I/WifiConfigStore: not authenticated yet
+01-01 20:28:53.365 3750-3953/? I/WifiConfigStore: login url: "http://192.168.88.88:8880/guest/s/default/?id=ec:1f:72:1f:be:c5&ap=00:27:22:0a:b5:22&t=1468610313&url=http://connectivitycheck.gstatic.com/generate_204&ssid=GOODWIN%20Guest"
+01-01 20:28:53.366 3750-3953/? D/WifiConfigStore: readNetwork skipInternetCheck
+01-01 20:28:53.374 3750-3953/? I/WifiConfigStore: "HEL Free Wifi-Open your browser" is a captive portal!
+01-01 20:28:53.374 3750-3953/? I/WifiConfigStore: authenticated on previous connection
+01-01 20:28:53.374 3750-3953/? I/WifiConfigStore: login url: "http://wifi.helsinkiairport.fi/en/"
+01-01 20:28:53.375 3750-3953/? D/WifiConfigStore: readNetwork skipInternetCheck
+01-01 20:28:53.382 3750-3953/? D/WifiConfigStore: readNetwork skipInternetCheck
+01-01 20:28:53.389 3750-3953/? D/WifiConfigStore: readNetwork skipInternetCheck
+01-01 20:28:53.397 3750-3953/? I/WifiConfigStore: "PROTUR ALICIA" is a captive portal!
+01-01 20:28:53.397 3750-3953/? I/WifiConfigStore: not authenticated yet
+01-01 20:28:53.397 3750-3953/? I/WifiConfigStore: login url: "http://app.protur-hotels.com/app.html"
+01-01 20:28:53.398 3750-3953/? D/WifiConfigStore: readNetwork skipInternetCheck
+01-01 20:28:53.404 3750-3953/? D/WifiConfigStore: readNetwork skipInternetCheck
+01-01 20:28:53.412 3750-3953/? I/WifiConfigStore: "McDonald's Free WiFi" is a captive portal!
+01-01 20:28:53.412 3750-3953/? I/WifiConfigStore: not authenticated yet
+01-01 20:28:53.412 3750-3953/? I/WifiConfigStore: login url: "https://welcome.o2wifi.co.uk/signup"
+01-01 20:28:53.525 3750-3953/? D/WifiConfigManager: loaded 0 passpoint configs
+01-01 20:28:53.527 3750-3948/? D/WifiP2pService: P2pDisabledState{ what=131203 }
+01-01 20:28:53.528 3750-3953/? I/WifiStateMachine: interwoking works again
+01-01 20:28:53.528 3750-3953/? D/WifiNative-wlan0: callSECApiBoolean - ID [301]
+01-01 20:28:53.528 3750-3750/? I/WifiHs20Service: Broadcast received:android.net.wifi.CONFIGURED_NETWORKS_CHANGE
+01-01 20:28:53.528 3750-3750/? D/WifiHs20Service: reason: 2
+01-01 20:28:53.529 3750-3980/? I/WifiHs20Service: Message received 5014
+01-01 20:28:53.529 3750-3980/? E/WifiHs20Service: received HS20_UTILITY_ACTION_TYPE_HS20_CONFIGURATION_CHANGED
+01-01 20:28:53.529 3750-3980/? E/WifiHs20Service: The changed config is NULL
+01-01 20:28:53.532 3750-3948/? D/WifiMonitor: startMonitoring(p2p0) with mConnected = true
+01-01 20:28:53.534 3750-3948/? D/WifiP2pService: P2pEnablingState
+01-01 20:28:53.535 3750-3948/? D/WifiP2pService: P2pEnablingState{ what=147457 }
+01-01 20:28:53.535 3750-3948/? D/WifiP2pService: P2p socket connection successful
+01-01 20:28:53.535 3750-3948/? D/WifiP2pService: P2pEnabledState
+01-01 20:28:53.537 3750-3948/? D/WifiP2pService: sending p2p connection changed broadcast: DISCONNECTED
+01-01 20:28:53.538 3750-3827/? D/WifiDisplayController: Received WIFI_P2P_STATE_CHANGED_ACTION: enabled=true
+01-01 20:28:53.538 3750-3827/? D/WifiDisplayController: updateScanState() mScanRequested = false, mWfdEnabled = false, mDiscoverPeersInProgress = false, mScanRequestedInConnected = false
+01-01 20:28:53.538 3750-3827/? D/WifiDisplayController: disconnect
+01-01 20:28:53.538 3750-3827/? D/WifiDisplayAdapter: onFeatureStateChanged empty
+01-01 20:28:53.538 3750-3827/? V/WifiDisplayAdapter: getWifiDisplayStatusLocked: result=WifiDisplayStatus{featureState=2, scanState=0, activeDisplayState=0, activeDisplay=null, displays=[], sessionInfo=WifiDisplaySessionInfo: Client/Owner: Client GroupId:  Passphrase:  SessionId: 0 IP Address: , connectedState=-1, networkQoS=0}
+01-01 20:28:53.538 9283-9283/? D/oneconnect[1.6.06-45_2]: SepP2pHelper.onReceive - WIFI_P2P_STATE_ENABLED
+01-01 20:28:53.539 9283-9283/? D/oneconnect[1.6.06-45_2]: SepP2pHelper.onReceive - WIFI_P2P_STATE_ENABLED
+01-01 20:28:53.541 9283-9283/? D/oneconnect[1.6.06-45_2]: q.mReceiver -  action: android.net.wifi.p2p.CONNECTION_STATE_CHANGE
+01-01 20:28:53.542 9283-9283/? I/oneconnect[1.6.06-45_2]: SepP2pHelper.onReceive - WIFI_P2P_CONNECTION_CHANGED_ACTION addr : null, state : false
+01-01 20:28:53.545 9283-9283/? I/oneconnect[1.6.06-45_2]: SepP2pHelper.onReceive - WIFI_P2P_CONNECTION_CHANGED_ACTION addr : null, state : false
+01-01 20:28:53.548 3750-3827/? D/WifiDisplayController: Received WIFI_P2P_CONNECTION_CHANGED_ACTION: networkInfo=[type: WIFI_P2P[] - WIFI_P2P, state: DISCONNECTED/DISCONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false, metered: false]
+01-01 20:28:53.550 9283-9283/? D/oneconnect[1.6.06-45_2]: q.mReceiver -  action: android.hardware.display.action.WIFI_DISPLAY_STATUS_CHANGED
+01-01 20:28:53.551 3750-4527/? V/WifiDisplayAdapter: getWifiDisplayStatusLocked: result=WifiDisplayStatus{featureState=2, scanState=0, activeDisplayState=0, activeDisplay=null, displays=[], sessionInfo=WifiDisplaySessionInfo: Client/Owner: Client GroupId:  Passphrase:  SessionId: 0 IP Address: , connectedState=-1, networkQoS=0}
+01-01 20:28:53.551 9283-9283/? I/oneconnect[1.6.06-45_2]: SepP2pHelper.onReceive - ACTION_WIFI_DISPLAY_STATUS_CHANGED, mIsScanningWfd: false
+01-01 20:28:53.551 9283-9283/? D/oneconnect[1.6.06-45_2]: SepP2pHelper.onReceive - ACTION_WIFI_DISPLAY_STATUS_CHANGED :0
+01-01 20:28:53.552 3750-5910/? V/WifiDisplayAdapter: getWifiDisplayStatusLocked: result=WifiDisplayStatus{featureState=2, scanState=0, activeDisplayState=0, activeDisplay=null, displays=[], sessionInfo=WifiDisplaySessionInfo: Client/Owner: Client GroupId:  Passphrase:  SessionId: 0 IP Address: , connectedState=-1, networkQoS=0}
+01-01 20:28:53.552 9283-9283/? I/oneconnect[1.6.06-45_2]: SepP2pHelper.onReceive - ACTION_WIFI_DISPLAY_STATUS_CHANGED, mIsScanningWfd: false
+01-01 20:28:53.552 9283-9283/? D/oneconnect[1.6.06-45_2]: SepP2pHelper.onReceive - ACTION_WIFI_DISPLAY_STATUS_CHANGED :0
+01-01 20:28:53.552 3750-27084/? V/WifiDisplayAdapter: getWifiDisplayStatusLocked: result=WifiDisplayStatus{featureState=2, scanState=0, activeDisplayState=0, activeDisplay=null, displays=[], sessionInfo=WifiDisplaySessionInfo: Client/Owner: Client GroupId:  Passphrase:  SessionId: 0 IP Address: , connectedState=-1, networkQoS=0}
+01-01 20:28:53.553 3750-4542/? V/WifiDisplayAdapter: getWifiDisplayStatusLocked: result=WifiDisplayStatus{featureState=2, scanState=0, activeDisplayState=0, activeDisplay=null, displays=[], sessionInfo=WifiDisplaySessionInfo: Client/Owner: Client GroupId:  Passphrase:  SessionId: 0 IP Address: , connectedState=-1, networkQoS=0}
+01-01 20:28:53.554 18509-18509/? D/FileShare: FileShareBroadcastReceiver.onReceive - action android.net.wifi.p2p.CONNECTION_STATE_CHANGE // null
+01-01 20:28:53.564 3750-3953/? D/WifiNative-wlan0: callSECApiInt - ID [53]
+01-01 20:28:53.566 3750-3750/? D/WifiController: [FCC]setFccChannel() is called !!!
+01-01 20:28:53.566 3750-3750/? D/WifiController: [FCC]Airplane off, setFccChannel(-1)!!!
+01-01 20:28:53.566 3750-3750/? D/WifiStateMachine: setFccChannel: channel = -1
+01-01 20:28:53.567 3750-3750/? D/HS20StateMachine: Broadcast Received: android.net.wifi.WIFI_STATE_CHANGED
+01-01 20:28:53.567 3750-3979/? D/HS20StateMachine: WIFI_STATE_ENABLED
+01-01 20:28:53.567 3750-3750/? I/WifiHs20Service: Broadcast received:android.net.wifi.WIFI_STATE_CHANGED
+01-01 20:28:53.567 3750-3979/? D/WifiHs20DBHandler: getCredentialIds
+01-01 20:28:53.567 3750-3980/? I/WifiHs20Service: Message received 5011
+01-01 20:28:53.568 3750-4029/? E/WifiWatchdogStateMachine: Unhandled message { when=0 what=135173 arg1=3 target=com.android.internal.util.StateMachine$SmHandler } in state NotConnectedState
+01-01 20:28:53.570 4137-4401/? D/NetworkController: onReceive: intent=Intent { act=android.net.wifi.WIFI_STATE_CHANGED flg=0x4000010 launchParam=MultiScreenLaunchParams { mDisplayId=0 mFlags=0 } bqHint=1 (has extras) }
+01-01 20:28:53.570 3750-3750/? D/SLocation: BroadcastReceiver : WIFI_STATE_CHANGED_ACTION
+01-01 20:28:53.570 3750-4452/? D/SLocation: checkWifiInfo
+01-01 20:28:53.573 9283-9283/? D/oneconnect[1.6.06-45_2]: SepP2pHelper.onReceive - WIFI_STATE_CHANGED_ACTION to 3
+01-01 20:28:53.574 9283-9283/? D/oneconnect[1.6.06-45_2]: SepP2pHelper.onReceive - WIFI_STATE_CHANGED_ACTION to 3
+01-01 20:28:53.578 18540-18540/? D/SecurityLogAgent: NetworkReceiver : Wifi_state is 3
+01-01 20:28:53.592 3750-3953/? I/WifiConnectivityManager: Set WiFi enabled
+01-01 20:28:53.592 3750-3953/? E/WifiStateMachine: ConnectModeState - enter !! - mIsSupportGeofence !!
+01-01 20:28:53.594 3750-3953/? D/WifiStateMachine: Remembered scan first is enabled
+01-01 20:28:53.594 3750-3750/? I/WifiStateMachine: initGeofence
+01-01 20:28:53.595 3750-3953/? W/AlarmManager: Unrecognized alarm listener com.android.server.wifi.WifiConnectivityManager$4@7feadb7
+01-01 20:28:53.595 3750-3953/? W/AlarmManager: Unrecognized alarm listener com.android.server.wifi.WifiConnectivityManager$5@2e7e924
+01-01 20:28:53.595 3750-3953/? W/AlarmManager: Unrecognized alarm listener com.android.server.wifi.WifiConnectivityManager$6@34c7390
+01-01 20:28:53.595 3750-3953/? D/WifiConnectivityManager: startPeriodicSingleScan  mPeriodicSingleScanInterval : 8000: mInRange : true
+01-01 20:28:53.596 3750-3953/? E/wifi: failed to get channel list : -95
+01-01 20:28:53.596 3750-3953/? D/WifiConfigManager: getChannelsForBand(WifiScanner.WIFI_BAND_24_GHZ) is null. So set default 2.4GHz 14 channels.
+01-01 20:28:53.622 3750-3750/? D/WifiStateMachine: startGeofence() - id : 8
+01-01 20:28:53.630 3750-3750/? D/WifiStateMachine: startGeofence() - id : 11
+01-01 20:28:53.633 3750-3750/? D/WifiStateMachine: startGeofence() - id : 9
+01-01 20:28:53.636 3750-3948/? D/WifiP2pService: My contact info - hash : b2758a, crc : 648f
+01-01 20:28:53.640 3750-3750/? D/WifiStateMachine: startGeofence() - id : 5
+01-01 20:28:53.644 3750-3750/? D/WifiStateMachine: startGeofence() - id : 3
+01-01 20:28:53.646 3750-3953/? D/WifiStateMachine: setFccChannelNative: channel = -1
+01-01 20:28:53.646 3750-3953/? D/WifiNative-wlan0: callSECApiInt - ID [230]
+01-01 20:28:53.650 3750-3948/? D/WifiNative-HAL: p2pGetDeviceAddress
+01-01 20:28:53.655 3750-3948/? D/WifiNative-HAL: p2pGetDeviceAddress returning 2e:0e:3d:9b:88:44
+01-01 20:28:53.667 3750-3948/? D/WifiP2pService: DeviceAddress: 2e:88:44
+01-01 20:28:53.672 3750-3750/? D/WifiStateMachine: startGeofence() - id : 12
+01-01 20:28:53.674 3750-3827/? D/WifiDisplayController: Received WIFI_P2P_THIS_DEVICE_CHANGED_ACTION: mThisDevice= Device: DanielSZ - Galaxy S7 edge
+                                                         deviceAddress: 2e:0e:3d:9b:88:44
+                                                         primary type: 10-0050F204-5
+                                                         secondary type: null
+                                                         wps: 0
+                                                         grpcapab: 0
+                                                         devcapab: 0
+                                                         status: 3
+                                                         wfdInfo: WFD enabled: falseWFD DeviceInfo: 0
+                                                         WFD CtrlPort: 0
+                                                         WFD MaxThroughput: 0
+                                                         groupownerAddress: null
+                                                         GOdeviceName: null
+                                                         interfaceAddress:
+                                                         SConnectInfo : null
+                                                         contactInfoHash : null
+                                                         ssDevInfo : 0
+                                                         iconIdx : 0
+                                                         semSamsungDeviceType : 0
+                                                         serviceData : null
+                                                         fw_invite : 0
